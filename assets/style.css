@@ -1,3 +1,4 @@
+/* This is for Contact.css*/
 * {
     margin: 0;
     padding: 0;
@@ -66,6 +67,9 @@ ul {
 main {
     height: 80vh;
     background-color: whitesmoke;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #777777;
 }
 
 .wrapper {
@@ -114,7 +118,6 @@ form {
     width: 900px;
     height: 20px;
     margin-bottom: 10px;
-    margin-right:
 }
 
 .input3 {
@@ -143,8 +146,9 @@ form {
     left: 50%;
     transform: translate(-50%, -50%);
     border-top: solid;
-    border-color: grey;
+    border-color: #dddddd;
     border-width: 2.5px;
+    
 }
 
 footer {
@@ -153,4 +157,45 @@ footer {
     border-top-style: solid; 
     border-width: 10px;
     border-color: teal;
+}
+/*This is the end of Contact.css*/
+
+/*This is going to be for About-me.css */
+
+.aboutme-container {
+    height:300px;
+    width: 900px;
+    background-color: white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top: solid;
+    border-color:#dddddd;
+    border-width: 2.5px;
+}
+.img {
+    height: 250px;
+    width: 160px;
+    margin-top: 25px;
+    float: left;
+}
+.container1 {
+    height: 500px;
+    width: 960px;
+    background-color: white;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    border-style: solid;
+    border-color: grey;
+    border-width: 0.5px;
+}
+
+.p {
+    color: #777777;
+    line-height: 2;
+    margin-top: 15px; 
+    text-align: center;
 }
