@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+}
+
+
+nav {
+    margin: 0 300px;
+    height: 10vh;
+    background-color: white;
+    display: table;
+
+}
+
+.name {
+    color: whitesmoke;
+    vertical-align: middle;
+    display: table-cell;
+    background-color: teal;
+}
+
+
+.nav-link-container {
+    display: table;
+    height: 10vh;
+    background-color: white;
+    vertical-align:middle;
+}
+
+.nav-link {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+    color: #777777;
+    text-decoration: none;
+}
+
+
+
+
+main {
+    height: 85vh;
+    position: relative;
+    background-color: #cccccc;
+
+}
+
+.container {
+    position: absolute;
+    height: 500px;
+    width: 960px;
+    background-color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 2px;
+}
+
+.card-header {
+    height:10px;
+    background-color: white;
+    display:table;
+    width: 100%;
+
+}
+
+.card-header-text {
+    color: teal;
+    margin: 20px;
+    display: flex;
+    
+
+}
+
+
+
+
+
+
+
+footer {
+    height: 5vh;
+    background-color: #666666;
+    border-top-style: solid;
+    border-width: 10px;
+    border-color: teal;
+
+}
+
