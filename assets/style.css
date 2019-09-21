@@ -52,7 +52,7 @@ header h1 {
     position: absolute; 
     left: 360px;
     text-align: center;
-    padding: 25px;
+    padding: 27px;
 }
 
 
@@ -160,7 +160,7 @@ footer {
 }
 /*This is the end of Contact.css*/
 
-/*This is going to be for About-me.css */
+/*This is going to be for About-me */
 
 .aboutme-container {
     height:300px;
@@ -198,4 +198,144 @@ footer {
     line-height: 2;
     margin-top: 15px; 
     text-align: center;
+}
+/*This is the end of about me for css*/
+
+/*This is style for portfolio */
+
+.portfolio {
+    color: teal;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20pt;
+}
+
+.portfolio-container {
+    height: 680px;
+    width: 750px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    border-style: solid;
+    border-color: grey;
+    border-width: 0.5px;
+}
+.port-container {
+    height:580px;
+    width: 690px;
+    background-color: white;
+    position:absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top: solid;
+    border-color: #dddddd;
+    border-width: 2.5px;
+}
+
+.name1 {
+    position: absolute; 
+    left: 465px;
+    text-align: center;
+    padding: 27px;
+}
+
+.ul {
+    float: right;
+    display: flex;
+    text-decoration: none;
+    list-style: none;   
+    max-width: 500px;
+    margin-right: 80px;
+}
+
+img {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    float: left;
+}
+.img1 {
+    height: 150px;
+    width: 220px;
+}
+.img2 {
+    height: 150px;
+    width: 220px;
+}
+.img3 {
+    height: 150px;
+    width: 220px;
+}
+.img4 {
+    height: 150px;
+    width: 220px;
+}
+.img5 {
+    height: 150px;
+    width: 220px;
+}
+
+
+.text-block1 {
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    background-color: teal;
+    color: white;
+    padding-left: 78px;
+    padding-right:80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.text-block2 {
+    position: absolute;
+    top: 120px;
+    left: 250px;
+    background-color:teal;
+    color: white;
+    padding-left: 80px;
+    padding-right:68px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.text-block3 {
+    position: absolute;
+    top: 308px;
+    left: 10px;
+    background-color:teal;
+    color: white;
+    padding-left: 70px;
+    padding-right:70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.text-block4 {
+    position: absolute;
+    top: 308px;
+    left: 250px;
+    background-color:teal;
+    color: white;
+    padding-left: 45px;
+    padding-right:45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.text-block5 {
+    position: absolute;
+    top: 500px;
+    left: 10px;
+    background-color:teal;
+    color: white;
+    padding-left: 45px;
+    padding-right:45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
