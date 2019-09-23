@@ -85,7 +85,7 @@ main {
 }
 
 .contact-container {
-    height: 500px;
+    height: 55vh;
     width: 960px;
     background-color: white;
     position: absolute;
@@ -144,7 +144,7 @@ form {
 }
 
 .form-container {
-    height:300px;
+    height:35vh;
     width: 900px;
     background-color: white;
     position:absolute;
@@ -169,11 +169,11 @@ footer {
 /*This is going to be for About-me */
 
 .aboutme-container {
-    height:480px;
+    height:50vh;
     width: 900px;
     background-color: white;
     position:absolute;
-    top: 58%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-top: solid;
@@ -187,7 +187,7 @@ footer {
     float: left;
 }
 .container1 {
-    height: 580px;
+    height: 70vh;
     width: 960px;
     background-color: white;
     position: absolute;
@@ -219,7 +219,7 @@ footer {
 }
 
 .portfolio-container {
-    height: 680px;
+    height: 75vh;
     width: 750px;
     background-color: white;
     position: absolute;
@@ -231,7 +231,7 @@ footer {
     border-width: 0.5px;
 }
 .port-container {
-    height:580px;
+    height:60vh;
     width: 690px;
     background-color: white;
     position:absolute;
